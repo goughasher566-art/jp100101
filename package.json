@@ -1,0 +1,33 @@
+{
+  "name": "stock-analysis-platform",
+  "version": "1.0.1",
+  "description": "株式AI分析プラットフォーム - 日本市場専門の投資分析システム",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "echo 'Deploy to Vercel'"
+  },
+  "keywords": [
+    "stock",
+    "analysis",
+    "platform",
+    "japan",
+    "investment",
+    "ai",
+    "trading"
+  ],
+  "author": "Stock Analysis Platform Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/stock-analysis-platform.git"
+  },
+  "homepage": "https://your-domain.vercel.app",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
